@@ -43,7 +43,7 @@ images_test = mnist.test.images
 labels_test = np.asarray(mnist.test.labels,
                          dtype=np.int32)
 
-# You can print some images to see how they are using display_test_image
+# You can print some of the test images using display_test_image
 # display_test_image(0)
 
 # Building and train our classifier
