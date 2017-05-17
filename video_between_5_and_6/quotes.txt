@@ -1,0 +1,13 @@
+###############################################
+# Wide & Deep Learning with TensorFlow        #
+# https://www.youtube.com/watch?v=Xmw9SWJ0L50 #
+###############################################
+
+"Wide and Deep learning combines the power of memorization and generalization"
+
+"Wide and Deep learning is useful for generic large scale regression and classification problems with sparse inputs"
+
+"TF Learn (formerly SK Flow) is a high level machine learning library on top of TensorFlow"
+
+TF Learn has a "fit" method (used to train your model, just like SciKit Learn)
+TF Learn has a "evaluate" method (used to predict, same as SciKit's "predict" method)
