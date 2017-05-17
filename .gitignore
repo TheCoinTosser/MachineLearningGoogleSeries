@@ -1,0 +1,9 @@
+.ipynb_checkpoints
+*.idea
+*.pyc
+__pycache__
+recipe_6/tmp
+recipe_6/flower_photos
+recipe_6/bottlenecks
+recipe_6/trained_images_outputs/retrained_graph.pb
+recipe_6/trained_images_outputs/retrained_labels.txt
