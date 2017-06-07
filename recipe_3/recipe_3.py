@@ -1,6 +1,6 @@
 #############################################################
 # What makes a good feature? - Machine Learning Recipes #3  #
-# https://www.youtube.com/watch?v=tNa99PG8hR8               #
+# https://www.youtube.com/watch?v=N9fDIAflCMY               #
 #############################################################
 
 import numpy as np
