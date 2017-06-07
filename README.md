@@ -15,7 +15,7 @@ I've taken the liberty to make a few modifications along the way, such as:
 
 * Goal: Create a classifier to predict between apples and oranges.
 * Category: Binary classification.
-* Changes made: The original video has the datasets hardcoded. I've taken the training and the test datasets off the code and put it into .csv files instead. Moreover, instead of using raw numbers directly to encode the features/labels, I've used SciKit's LabelEncoder() class instead. That way the data is presented in a nicer form and you don't need to know which feature/label is mapped to which number.
+* Changes made: The original video has the datasets hardcoded. I've taken the training and the test datasets off the code and put it into .csv files instead. Moreover, instead of using raw numbers directly to encode the features/labels, I've used SciKit's LabelEncoder() class. That way the data is presented in a nicer form and you don't need to know which feature/label is mapped to which number.
 
 
 **2. Recipe 2 -  Visualizing a Decision Tree**
@@ -39,7 +39,7 @@ I've taken the liberty to make a few modifications along the way, such as:
 
 
 **5. Recipe 5 - Writing Our First Classifier**
-* Goal: Write your own classifier (1 nearest neighbour classifier)
+* Goal: Write your own classifier (1 nearest neighbour)
 * Category: Multiclass classification.
 * Changes made: I've written my own version of 1 nearest neighbour so the implementation might be slightly different than the one shown in the video.
 
@@ -47,10 +47,10 @@ I've taken the liberty to make a few modifications along the way, such as:
 **6. Recipe 6 - Train an Image Classifier with TensorFlow for Poets**
 * Goal: Train our first classifier that will take as input raw images and predict between 5 types of flowers.
 * Category: Multiclass classification.
-* Changes made: I have not used a Docker container in order to set-up everything needed. Instead, I've written a readme.txt file with instruction on how to download, install and configure everything from scratch. Finally, for the testing dataset, I've added 4 tests for each type of flower. For each type, the first image contains the flower by itself. The second contains a bunch of flowers. The third is a cartoonish/drawing and the forth is an image I figure would be hard for the classifier to get it right.
+* Changes made: I have not used a Docker container in order to set-up what is needed. Instead, I've written a readme.txt file with instructions on how to download, install and configure everything from scratch. Finally, for the testing dataset, I've added 4 tests for each type of flower. The first image contains the flower by itself. The second contains a bunch of flowers. The third is a cartoonish/drawing and the forth is an image I figured would be hard for the classifier to get it right.
 
 
 **7. Recipe 7 - Classifying Handwritten Digits with TF.Learn**
 * Goal: Train a classifier to predict digits from 0 to 9 using TensorFlow.
 * Category: Multiclass classification.
-* Changes made: Again, I have not used the docker container to get tensorflow. Instead I've decided to compile TensorFlow myself to get better performance. If you don't want to do that, there are easier ways to get TensorFlow (https://www.tensorflow.org/install/). Finally, I've just made a few minor changes to the code in order to make it work with the latest version of TensorFlow.
+* Changes made: Again, I have not used the docker container to get tensorflow. Instead I've decided to compile TensorFlow myself to get better performance. If you don't want to do that, there are much easier ways to get TensorFlow (https://www.tensorflow.org/install/). Finally, I've just made a few minor changes to the code in order to make it work with the latest version of TensorFlow.
